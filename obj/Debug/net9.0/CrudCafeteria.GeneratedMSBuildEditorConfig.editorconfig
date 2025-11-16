@@ -1,5 +1,7 @@
 is_global = true
 build_property.TargetFramework = net9.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v9.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
@@ -9,69 +11,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CrudCafeteria
 build_property.RootNamespace = CrudCafeteria
-build_property.ProjectDir = /home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/
+build_property.ProjectDir = C:\Users\Makanen\source\repos\akiodiamosphp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria
+build_property.MSBuildProjectDirectory = C:\Users\Makanen\source\repos\akiodiamosphp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/App.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
+[C:/Users/Makanen/source/repos/akiodiamosphp/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Layout/EmptyLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvRW1wdHlMYXlvdXQucmF6b3I=
+[C:/Users/Makanen/source/repos/akiodiamosphp/Components/Layout/EmptyLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcRW1wdHlMYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
+[C:/Users/Makanen/source/repos/akiodiamosphp/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
+[C:/Users/Makanen/source/repos/akiodiamosphp/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Paginas/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdpbmFzL0Vycm9yLnJhem9y
+[C:/Users/Makanen/source/repos/akiodiamosphp/Components/Paginas/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmFzXEVycm9yLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Routes.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+[C:/Users/Makanen/source/repos/akiodiamosphp/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+[C:/Users/Makanen/source/repos/akiodiamosphp/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Paginas/Bebidas.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdpbmFzL0JlYmlkYXMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-he00sek1d4
+[C:/Users/Makanen/source/repos/akiodiamosphp/Components/Paginas/Bebidas.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmFzXEJlYmlkYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-zc0ma5pl8x
 
-[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Paginas/Desayunos.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdpbmFzL0Rlc2F5dW5vcy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-dybbstqj4m
+[C:/Users/Makanen/source/repos/akiodiamosphp/Components/Paginas/Desayunos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmFzXERlc2F5dW5vcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-urs2vxk9w3
 
-[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Paginas/Gastos.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdpbmFzL0dhc3Rvcy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-gkq5tnoyus
+[C:/Users/Makanen/source/repos/akiodiamosphp/Components/Paginas/Gastos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmFzXEdhc3Rvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-flzio6trif
 
-[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Paginas/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdpbmFzL0hvbWUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-f2bktnvalz
+[C:/Users/Makanen/source/repos/akiodiamosphp/Components/Paginas/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmFzXEhvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-5sp4d6ysni
 
-[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Paginas/Postres.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdpbmFzL1Bvc3RyZXMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-yb0ae78f1k
+[C:/Users/Makanen/source/repos/akiodiamosphp/Components/Paginas/Postres.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmFzXFBvc3RyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jz5tbliy56
 
-[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Shared/CreateGastoModal.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaGFyZWQvQ3JlYXRlR2FzdG9Nb2RhbC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-nb87jukl4f
+[C:/Users/Makanen/source/repos/akiodiamosphp/Components/Shared/CreateGastoModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcQ3JlYXRlR2FzdG9Nb2RhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-adq5mhxxwu
 
-[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Pages/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4uY3NodG1s
+[C:/Users/Makanen/source/repos/akiodiamosphp/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
