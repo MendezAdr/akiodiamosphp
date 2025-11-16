@@ -1,5 +1,5 @@
 @page "/login"
-@model CrudCafeteria.Components.Pages.LoginModel
+@model CrudCafeteria.Pages.LoginModel
 @{
     Layout = null;
 }
@@ -33,7 +33,7 @@
                 
                 @* --- FORMULARIO DE LOGIN --- *@
                 <form method="post" asp-page-handler="Login"> @* <-- Handler en el FORMULARIO *@
-                    @*@Html.AntiForgeryToken()*@
+                    @Html.AntiForgeryToken()
                     
                     <label for="username">Usuario:</label>
                     <input type="text" id="usuario" name="Username" required> 
@@ -46,7 +46,7 @@
                 
                 @* --- FORMULARIO DE CREAR USUARIO DE PRUEBA --- *@
                 <form method="post" asp-page-handler="TestUser" style="margin-top: 15px;"> @* <-- Handler en el FORMULARIO *@
-                    @*@Html.AntiForgeryToken()*@
+                    @Html.AntiForgeryToken()
                     <button type="submit" style="background-color: #6c757d; color: white; border: none;">
                         Crear Usuario de Prueba (admin/123456)
                     </button>

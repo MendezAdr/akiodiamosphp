@@ -75,3 +75,4 @@
 /home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/Components/Paginas/Postres.razor.rz.scp.css
 /home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/j63i4xewsf-he0t5d89dx.gz
 /home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/qwtwqp6sle-he0t5d89dx.gz
+/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/CrudCafeteria.sourcelink.json

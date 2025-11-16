@@ -52,7 +52,7 @@ app.UseStaticFiles();
 // --- ¡ESTE ES EL ORDEN CRÍTICO! ---
 app.UseRouting(); // <-- Debe ir antes de Antiforgery, Authentication, Authorization
 
-//app.UseAntiforgery(); // <-- Aquí
+app.UseAntiforgery(); // <-- Aquí
 app.UseAuthentication(); // <-- Aquí
 app.UseAuthorization(); // <-- Aquí
 

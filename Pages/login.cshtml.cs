@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace CrudCafeteria.Components.Pages
+namespace CrudCafeteria.Pages
 {
     public class LoginModel : PageModel
     {
