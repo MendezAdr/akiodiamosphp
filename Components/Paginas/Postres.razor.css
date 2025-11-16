@@ -1,0 +1,87 @@
+/* ---------------------------------------------------- */
+/* Estilos Globales de Imágenes y Contenedores */
+/* ---------------------------------------------------- */
+
+/* REGLA UNIFICADA: Aplica el estilo deseado a todas las imágenes (<img>) */
+.content-banner img,
+.batido2 img,
+.galleta2 img,
+.torta2 img {
+    border-radius: 80px; 
+    width: 9rem;
+    height: 12rem;
+    object-fit: cover; 
+    border-style: outset; 
+    display: block; 
+}
+
+/* Estilo unificado para los contenedores de título e imagen */
+.content-banner, .batido, .batido2, .galleta, .galleta2, .torta, .torta2 {
+    width: 250px; /* Ancho fijo para cada bloque en desktop */
+    margin: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-banner h2, .batido h2, .galleta h2, .torta h2 {
+    color: rgb(190, 164, 135); 
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.texto {
+    /* Contenedor del párrafo de bienvenida */
+    width: 100%;
+    order: -1; /* Lo posiciona al principio en el flujo flex */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    color: rgb(247, 224, 196);
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* ---------------------------------------------------- */
+/* Contenedor Principal (Flexbox) */
+/* ---------------------------------------------------- */
+
+.banner {
+    background-image: linear-gradient(100deg,#000000, #00002000), url('/pictures/portada4.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: auto; 
+    min-height: 50rem;
+    width: 100%;
+
+    display: flex; /* Habilitamos Flexbox */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start;
+    padding: 10rem 1rem 3rem 1rem;
+}
+
+/* ---------------------------------------------------- */
+/* Responsive Design (Postres) */
+/* ---------------------------------------------------- */
+
+@media (max-width: 600px) {
+     .banner {
+        padding-top: 80px; 
+    }
+    .content-banner, .batido, .batido2, .galleta, .galleta2, .torta, .torta2 {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .content-banner h2, .batido h2, .galleta h2, .torta h2 {
+        font-size: 1.5rem;
+    }
+    .texto p {
+        font-size: 2rem;
+    }
+}

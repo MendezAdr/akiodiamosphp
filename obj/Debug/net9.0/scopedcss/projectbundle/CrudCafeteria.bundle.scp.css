@@ -1,0 +1,682 @@
+/* _content/CrudCafeteria/Components/Paginas/Bebidas.razor.rz.scp.css */
+/* ---------------------------------------------------- */
+/* Estilos Globales de Imágenes y Contenedores */
+/* ---------------------------------------------------- */
+.content-banner[b-he00sek1d4] {
+    width: 100%; /* Ocupa todo el ancho */
+    max-width: 1200px; /* Ancho máximo en desktop */
+    margin: 30px auto 0; /* Centrado y espacio */
+
+    display: grid;
+    /* En desktop: 4 columnas (250px) si caben, o las que quepan */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 30px; /* Espacio entre los ítems */
+    justify-content: center; /* Centra los ítems si no ocupan todo el ancho */
+}
+/* REGLA UNIFICADA: Aplica el estilo deseado a TODAS las imágenes (<img>) */
+.content-banner img[b-he00sek1d4],
+.cafe2 img[b-he00sek1d4],
+.frio2 img[b-he00sek1d4],
+.drink2 img[b-he00sek1d4],
+.matcha2 img[b-he00sek1d4] {
+    /* Forma y Tamaño deseados */
+    border-radius: 80px; 
+    width: 9rem;
+    height: 12rem;
+    
+    /* Aseguramos que la imagen no se estire */
+    object-fit: cover; 
+
+    /* Estilos adicionales */
+    border-style: outset; 
+    display: block; 
+}
+
+/* Estilo unificado para los contenedores de título e imagen */
+.content-banner[b-he00sek1d4], .cafe[b-he00sek1d4], .cafe2[b-he00sek1d4], .frio[b-he00sek1d4], .frio2[b-he00sek1d4], .drink[b-he00sek1d4], .drink2[b-he00sek1d4], .matcha[b-he00sek1d4], .matcha2[b-he00sek1d4] {
+    width: 250px; /* Ancho fijo para cada bloque en desktop */
+    margin: 15px; /* Espacio entre bloques */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-banner h2[b-he00sek1d4], .cafe h2[b-he00sek1d4], .frio h2[b-he00sek1d4], .drink h2[b-he00sek1d4], .matcha h2[b-he00sek1d4] {
+    color: rgb(190, 164, 135); 
+    font-size: 1.8rem; 
+    margin: 1rem 0; /* Espacio entre título y otros elementos */
+    font-weight: 500;
+}
+
+.producto-item[b-he00sek1d4] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Eliminar todos los 'margin-left' y 'margin-top' absolutos de las imágenes y títulos */
+}
+
+.producto-item h2[b-he00sek1d4] {
+    color: rgb(190, 164, 135); 
+    font-size: 1.8rem; 
+    margin: 1rem 0; 
+    font-weight: 500;
+}
+/* ---------------------------------------------------- */
+/* Contenedor Principal (Flexbox) */
+/* ---------------------------------------------------- */
+
+.banner[b-he00sek1d4] {
+    /* ... (mantener estilos de fondo y min-height) ... */
+    background-image: linear-gradient(100deg,#000000, #00002000), url('/pictures/portada2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: auto; 
+    min-height: 50rem;
+    width: 100%;
+
+    /* Centra el content-banner */
+    display: flex; 
+    flex-direction: column; /* Para que el contenido principal vaya abajo */
+    align-items: center; 
+    padding: 10rem 1rem 3rem 1rem; 
+}
+
+/* ---------------------------------------------------- */
+/* Responsive Design (Bebidas) */
+/* ---------------------------------------------------- */
+
+@media (max-width: 580px) {
+    /* Esto ya está cubierto por auto-fit en .content-banner, pero es bueno tener un punto de control */
+    .content-banner[b-he00sek1d4] {
+        /* Se ajustará automáticamente a 1 columna o 2 más pequeñas */
+        grid-template-columns: 1fr; /* Forzar 1 columna si es muy estrecho */
+    }
+}
+/* _content/CrudCafeteria/Components/Paginas/Desayunos.razor.rz.scp.css */
+/* ---------------------------------------------------- */
+/* Estilos Globales de Imágenes y Contenedores */
+/* ---------------------------------------------------- */
+
+/* CAMBIO CLAVE: UNIFICACIÓN DE ESTILOS DE IMAGEN */
+.content-banner img[b-dybbstqj4m],
+.tostadas2 img[b-dybbstqj4m],
+.hotcakes2 img[b-dybbstqj4m],
+.cachito2 img[b-dybbstqj4m],
+.yogurt2 img[b-dybbstqj4m] {
+    border-style: outset;
+    border-radius: 40px; 
+    width: 9rem;
+    height: 12rem;
+    object-fit: cover;
+    display: block;
+}
+
+/* Estilo unificado para los contenedores de título e imagen */
+.content-banner[b-dybbstqj4m], .tostadas[b-dybbstqj4m], .tostadas2[b-dybbstqj4m], .hotcakes[b-dybbstqj4m], .hotcakes2[b-dybbstqj4m], .cachito[b-dybbstqj4m], .cachito2[b-dybbstqj4m], .yogurt[b-dybbstqj4m], .yogurt2[b-dybbstqj4m], .text[b-dybbstqj4m] {
+    width: 250px; /* Ancho fijo para cada bloque en desktop */
+    margin: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-banner h2[b-dybbstqj4m], .tostadas h2[b-dybbstqj4m], .hotcakes h2[b-dybbstqj4m], .cachito h2[b-dybbstqj4m], .yogurt h2[b-dybbstqj4m] {
+    color: rgb(190, 164, 135); 
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.text[b-dybbstqj4m] {
+    /* Contenedor de texto libre al final */
+    width: 100%; 
+    order: 99; /* Asegura que vaya al final */
+    margin-top: 30px;
+}
+.text p[b-dybbstqj4m] {
+    color: rgb(235, 200, 160);
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/* ---------------------------------------------------- */
+/* Contenedor Principal (Flexbox) */
+/* ---------------------------------------------------- */
+.banner[b-dybbstqj4m] {
+    background-image: linear-gradient(100deg,#000000, #00002000), url('/pictures/portada3.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: auto; 
+    min-height: 50rem;
+    width: 100%;
+
+    display: flex; /* Habilitamos Flexbox */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start;
+    padding: 10rem 1rem 3rem 1rem;
+}
+
+/* ---------------------------------------------------- */
+/* Responsive Design (Desayunos) */
+/* ---------------------------------------------------- */
+
+@media (max-width: 600px) {
+     .banner[b-dybbstqj4m] {
+        padding-top: 80px; 
+    }
+    .content-banner[b-dybbstqj4m], .tostadas[b-dybbstqj4m], .tostadas2[b-dybbstqj4m], .hotcakes[b-dybbstqj4m], .hotcakes2[b-dybbstqj4m], .cachito[b-dybbstqj4m], .cachito2[b-dybbstqj4m], .yogurt[b-dybbstqj4m], .yogurt2[b-dybbstqj4m] {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .content-banner h2[b-dybbstqj4m], .tostadas h2[b-dybbstqj4m], .hotcakes h2[b-dybbstqj4m], .cachito h2[b-dybbstqj4m], .yogurt h2[b-dybbstqj4m] {
+        font-size: 1.5rem;
+    }
+}
+/* _content/CrudCafeteria/Components/Paginas/Gastos.razor.rz.scp.css */
+
+.gastos-container[b-gkq5tnoyus] {
+    padding-top: 60px; 
+    
+    position: relative;
+    background-image: url('/pictures/portada.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    min-height: calc(100vh - 60px); 
+    height: 100%;
+
+
+    width: 100%; 
+}
+
+
+.background-overlay[b-gkq5tnoyus] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+.page-toolbar[b-gkq5tnoyus] {
+    display: flex;
+    justify-content: space-between; /* Botón a la izq., búsqueda a la der. */
+    align-items: center;
+    margin-bottom: 25px; /* Espacio antes de la tabla */
+}
+
+.search-container[b-gkq5tnoyus] {
+    display: flex;
+    gap: 10px;
+}
+
+.search-input[b-gkq5tnoyus] {
+    padding: 10px 15px;
+    border: 1px solid rgb(190, 164, 135); /* Borde Caramelo */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo claro para contraste */
+    color: #4A3528; /* Texto oscuro */
+    font-size: 0.9rem;
+    width: 250px;
+}
+
+.search-input:focus[b-gkq5tnoyus] {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(190, 164, 135, 0.5);
+}
+.sidebar-button[b-gkq5tnoyus] {
+    background-color: rgb(190, 164, 135); /* Caramelo */
+    color: #4A3528; /* Espresso */
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.sidebar-button:hover[b-gkq5tnoyus] {
+    background-color: rgb(170, 144, 115);
+    transform: translateY(-1px);
+}
+
+
+.sidebar-button.search-button[b-gkq5tnoyus] {
+    width: auto; 
+    text-align: center;
+}
+
+.clear-search-button[b-gkq5tnoyus] {
+    background-color: #634C3E; 
+    color: #F8F8F8;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.clear-search-button:hover[b-gkq5tnoyus] {
+    background-color: #5A4438;
+}
+
+.sidebar-button.search-button[b-gkq5tnoyus] {
+    width: auto; 
+    text-align: center;
+}
+
+.main-content[b-gkq5tnoyus] {
+    flex-grow: 1;
+    padding: 40px;
+    z-index: 2;
+    overflow-y: auto;
+}
+
+.table-container[b-gkq5tnoyus] {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #F8F8F8; 
+}
+
+table[b-gkq5tnoyus] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th[b-gkq5tnoyus], td[b-gkq5tnoyus] {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    /* Aseguramos que el texto de la tabla sea visible */
+    color: inherit; 
+}
+
+th[b-gkq5tnoyus] {
+    background-color: rgba(190, 164, 135, 0.7); 
+    color: #4A3528; 
+    font-weight: 700;
+}
+
+tr:hover[b-gkq5tnoyus] {
+    background-color: rgba(190, 164, 135, 0.1);
+}
+
+.action-button[b-gkq5tnoyus] {
+    padding: 6px 10px;
+    margin-left: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 70px; 
+}
+
+
+.btn-editar[b-gkq5tnoyus] {
+    background-color: rgb(190, 164, 135); 
+    color: #4A3528; 
+    border-color: rgb(170, 144, 115);
+}
+
+.btn-editar:hover[b-gkq5tnoyus] {
+    background-color: #4A3528; 
+    color: rgb(190, 164, 135); 
+    border-color: rgb(190, 164, 135);
+    transform: translateY(-1px);
+}
+
+
+.btn-eliminar[b-gkq5tnoyus] {
+    background-color: #903030; 
+    color: #F8F8F8; 
+    border-color: #602020;
+}
+
+.btn-eliminar:hover[b-gkq5tnoyus] {
+    background-color: #602020; 
+    color: #FFD2D2;
+    transform: translateY(-1px);
+}
+
+
+
+
+@media (max-width: 768px) {
+    
+    /* En pantallas pequeñas, cambiamos el layout para que el sidebar desaparezca */
+    .gastos-container[b-gkq5tnoyus] {
+        flex-direction: column;
+        padding-top: 60px; 
+    }
+    
+    /* Ocultamos el sidebar en móvil */
+    .sidebar[b-gkq5tnoyus] {
+        display: none; 
+    }
+    
+    /* El main content se expande y reduce el padding */
+    .main-content[b-gkq5tnoyus] {
+        padding: 20px;
+    }
+    
+    /* Hacemos que la tabla sea desplazable horizontalmente en móvil */
+    .table-container[b-gkq5tnoyus] {
+        overflow-x: auto;
+    }
+    
+    /* Mínimo de ancho para que la tabla no se colapse */
+    table[b-gkq5tnoyus] {
+        min-width: 600px; 
+    }
+}
+/* _content/CrudCafeteria/Components/Paginas/Home.razor.rz.scp.css */
+.banner[b-f2bktnvalz]{
+    /* ELIMINAR: margin-top: -1rem; */
+    background-image: linear-gradient(100deg,#000000, #00002000), url('/pictures/portada.jpg');
+    height: 50rem; /* Puedes ajustar esta altura */
+    background-size: cover;
+    background-position: center; /* Asegura que la parte central sea visible */
+}
+.content-banner[b-f2bktnvalz]{
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 18rem 0;
+}
+.content-banner p[b-f2bktnvalz]{
+    color: rgb(190, 164, 135);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.content-banner h2[b-f2bktnvalz]{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+/* _content/CrudCafeteria/Components/Paginas/Postres.razor.rz.scp.css */
+/* ---------------------------------------------------- */
+/* Estilos Globales de Imágenes y Contenedores */
+/* ---------------------------------------------------- */
+
+/* REGLA UNIFICADA: Aplica el estilo deseado a todas las imágenes (<img>) */
+.content-banner img[b-yb0ae78f1k],
+.batido2 img[b-yb0ae78f1k],
+.galleta2 img[b-yb0ae78f1k],
+.torta2 img[b-yb0ae78f1k] {
+    border-radius: 80px; 
+    width: 9rem;
+    height: 12rem;
+    object-fit: cover; 
+    border-style: outset; 
+    display: block; 
+}
+
+/* Estilo unificado para los contenedores de título e imagen */
+.content-banner[b-yb0ae78f1k], .batido[b-yb0ae78f1k], .batido2[b-yb0ae78f1k], .galleta[b-yb0ae78f1k], .galleta2[b-yb0ae78f1k], .torta[b-yb0ae78f1k], .torta2[b-yb0ae78f1k] {
+    width: 250px; /* Ancho fijo para cada bloque en desktop */
+    margin: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-banner h2[b-yb0ae78f1k], .batido h2[b-yb0ae78f1k], .galleta h2[b-yb0ae78f1k], .torta h2[b-yb0ae78f1k] {
+    color: rgb(190, 164, 135); 
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.texto[b-yb0ae78f1k] {
+    /* Contenedor del párrafo de bienvenida */
+    width: 100%;
+    order: -1; /* Lo posiciona al principio en el flujo flex */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texto p[b-yb0ae78f1k] {
+    color: rgb(247, 224, 196);
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* ---------------------------------------------------- */
+/* Contenedor Principal (Flexbox) */
+/* ---------------------------------------------------- */
+
+.banner[b-yb0ae78f1k] {
+    background-image: linear-gradient(100deg,#000000, #00002000), url('/pictures/portada4.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: auto; 
+    min-height: 50rem;
+    width: 100%;
+
+    display: flex; /* Habilitamos Flexbox */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start;
+    padding: 10rem 1rem 3rem 1rem;
+}
+
+/* ---------------------------------------------------- */
+/* Responsive Design (Postres) */
+/* ---------------------------------------------------- */
+
+@media (max-width: 600px) {
+     .banner[b-yb0ae78f1k] {
+        padding-top: 80px; 
+    }
+    .content-banner[b-yb0ae78f1k], .batido[b-yb0ae78f1k], .batido2[b-yb0ae78f1k], .galleta[b-yb0ae78f1k], .galleta2[b-yb0ae78f1k], .torta[b-yb0ae78f1k], .torta2[b-yb0ae78f1k] {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .content-banner h2[b-yb0ae78f1k], .batido h2[b-yb0ae78f1k], .galleta h2[b-yb0ae78f1k], .torta h2[b-yb0ae78f1k] {
+        font-size: 1.5rem;
+    }
+    .texto p[b-yb0ae78f1k] {
+        font-size: 2rem;
+    }
+}
+/* _content/CrudCafeteria/Components/Shared/CreateGastoModal.razor.rz.scp.css */
+/* CreateGastoModal.razor.css - Estilo de Cafetería Oscuro y Moderno */
+
+/* 1. Superposición de Fondo */
+.modal-overlay[b-nb87jukl4f] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Fondo muy oscuro y transparente para resaltar el modal */
+    background-color: rgba(30, 20, 15, 0.9); 
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px); /* Desenfoque para un efecto moderno */
+}
+
+/* 2. Contenido del Modal */
+.modal-content[b-nb87jukl4f] {
+    /* Fondo principal: Marrón Oscuro/Espresso de la paleta */
+    background: #4A3528; 
+    color: #F8F8F8; /* Texto muy claro */
+    padding: 0; /* Padding se maneja en el body para control total */
+    border-radius: 10px;
+    width: 90%;
+    max-width: 550px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Sombra profunda */
+    animation: fadeInScale-b-nb87jukl4f 0.3s ease-out forwards;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+
+    background-image: url('/pictures/batido.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(74, 53, 40, 0.95);
+    background-blend-mode: multiply;
+    /* Importante para que el borde redondeado del modal corte la franja del header */
+}
+
+@keyframes fadeInScale-b-nb87jukl4f {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* 3. Encabezado con Franja de Café Claro */
+.modal-header[b-nb87jukl4f] {
+    /* Franja de Título: Color Caramelo/Tierra de la paleta */
+    background-color: rgb(190, 164, 135); 
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0; 
+}
+
+.modal-header h3[b-nb87jukl4f] { /* El código Razor usa <h3> */
+    margin: 0;
+    color: #4A3528; /* Texto color Espresso sobre la franja Clara */
+    font-size: 1.5em; 
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.close-button[b-nb87jukl4f] {
+    background: none;
+    border: none;
+    font-size: 2em; 
+    color: #4A3528; /* Color oscuro sobre la franja */
+    cursor: pointer;
+    line-height: 1;
+    transition: color 0.2s ease;
+}
+
+.close-button:hover[b-nb87jukl4f] {
+    color: #2b1d16; /* Oscurecer al pasar el ratón */
+}
+
+/* 4. Cuerpo y Pie de Página */
+.modal-body[b-nb87jukl4f] {
+    padding: 30px; /* Aquí va el padding interno del formulario */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group[b-nb87jukl4f] {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group label[b-nb87jukl4f] {
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: rgb(190, 164, 135); /* Color Caramelo para las etiquetas */
+    font-size: 1em;
+}
+
+
+.form-control[b-nb87jukl4f] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #634C3E; /* Borde tono café medio */
+    border-radius: 6px; 
+    font-size: 1em;
+    color: #333333;
+    background-color: #F8F8F8; /* Fondo blanco/muy claro para los inputs */
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-control:focus[b-nb87jukl4f] {
+    border-color: rgb(190, 164, 135); /* Caramelo al enfocar */
+    box-shadow: 0 0 0 3px rgba(190, 164, 135, 0.4); 
+    outline: none;
+}
+
+
+.modal-footer[b-nb87jukl4f] {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    border-top: 1px solid #634C3E; 
+    padding-top: 20px;
+    margin-top: 10px;
+
+    
+}
+
+.btn[b-nb87jukl4f] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.95em;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Botón Eliminar (si está presente) */
+.btn-danger[b-nb87jukl4f] { 
+    background-color: #C0392B; 
+    color: #FFFFFF;
+}
+.btn-danger:hover[b-nb87jukl4f] {
+    background-color: #A93226;
+}
+
+/* Botón Cancelar (btn-secondary en tu Razor) */
+.btn-secondary[b-nb87jukl4f] {
+    background-color: #634C3E; /* Café medio */
+    color: #F8F8F8;
+}
+
+.btn-secondary:hover[b-nb87jukl4f] {
+    background-color: #5A4438;
+}
+
+/* Botón Guardar (btn-primary en tu Razor) */
+.btn-primary[b-nb87jukl4f] {
+    background-color: rgb(190, 164, 135); /* Color Caramelo */
+    color: #4A3528; /* Texto Espresso */
+}
+
+.btn-primary:hover[b-nb87jukl4f] {
+    background-color: rgb(170, 144, 115);
+    transform: translateY(-1px);
+}

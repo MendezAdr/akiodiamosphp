@@ -1,0 +1,210 @@
+
+.gastos-container[b-gkq5tnoyus] {
+    padding-top: 60px; 
+    
+    position: relative;
+    background-image: url('/pictures/portada.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    min-height: calc(100vh - 60px); 
+    height: 100%;
+
+
+    width: 100%; 
+}
+
+
+.background-overlay[b-gkq5tnoyus] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+.page-toolbar[b-gkq5tnoyus] {
+    display: flex;
+    justify-content: space-between; /* Botón a la izq., búsqueda a la der. */
+    align-items: center;
+    margin-bottom: 25px; /* Espacio antes de la tabla */
+}
+
+.search-container[b-gkq5tnoyus] {
+    display: flex;
+    gap: 10px;
+}
+
+.search-input[b-gkq5tnoyus] {
+    padding: 10px 15px;
+    border: 1px solid rgb(190, 164, 135); /* Borde Caramelo */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo claro para contraste */
+    color: #4A3528; /* Texto oscuro */
+    font-size: 0.9rem;
+    width: 250px;
+}
+
+.search-input:focus[b-gkq5tnoyus] {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(190, 164, 135, 0.5);
+}
+.sidebar-button[b-gkq5tnoyus] {
+    background-color: rgb(190, 164, 135); /* Caramelo */
+    color: #4A3528; /* Espresso */
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.sidebar-button:hover[b-gkq5tnoyus] {
+    background-color: rgb(170, 144, 115);
+    transform: translateY(-1px);
+}
+
+
+.sidebar-button.search-button[b-gkq5tnoyus] {
+    width: auto; 
+    text-align: center;
+}
+
+.clear-search-button[b-gkq5tnoyus] {
+    background-color: #634C3E; 
+    color: #F8F8F8;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.clear-search-button:hover[b-gkq5tnoyus] {
+    background-color: #5A4438;
+}
+
+.sidebar-button.search-button[b-gkq5tnoyus] {
+    width: auto; 
+    text-align: center;
+}
+
+.main-content[b-gkq5tnoyus] {
+    flex-grow: 1;
+    padding: 40px;
+    z-index: 2;
+    overflow-y: auto;
+}
+
+.table-container[b-gkq5tnoyus] {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #F8F8F8; 
+}
+
+table[b-gkq5tnoyus] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th[b-gkq5tnoyus], td[b-gkq5tnoyus] {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    /* Aseguramos que el texto de la tabla sea visible */
+    color: inherit; 
+}
+
+th[b-gkq5tnoyus] {
+    background-color: rgba(190, 164, 135, 0.7); 
+    color: #4A3528; 
+    font-weight: 700;
+}
+
+tr:hover[b-gkq5tnoyus] {
+    background-color: rgba(190, 164, 135, 0.1);
+}
+
+.action-button[b-gkq5tnoyus] {
+    padding: 6px 10px;
+    margin-left: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 70px; 
+}
+
+
+.btn-editar[b-gkq5tnoyus] {
+    background-color: rgb(190, 164, 135); 
+    color: #4A3528; 
+    border-color: rgb(170, 144, 115);
+}
+
+.btn-editar:hover[b-gkq5tnoyus] {
+    background-color: #4A3528; 
+    color: rgb(190, 164, 135); 
+    border-color: rgb(190, 164, 135);
+    transform: translateY(-1px);
+}
+
+
+.btn-eliminar[b-gkq5tnoyus] {
+    background-color: #903030; 
+    color: #F8F8F8; 
+    border-color: #602020;
+}
+
+.btn-eliminar:hover[b-gkq5tnoyus] {
+    background-color: #602020; 
+    color: #FFD2D2;
+    transform: translateY(-1px);
+}
+
+
+
+
+@media (max-width: 768px) {
+    
+    /* En pantallas pequeñas, cambiamos el layout para que el sidebar desaparezca */
+    .gastos-container[b-gkq5tnoyus] {
+        flex-direction: column;
+        padding-top: 60px; 
+    }
+    
+    /* Ocultamos el sidebar en móvil */
+    .sidebar[b-gkq5tnoyus] {
+        display: none; 
+    }
+    
+    /* El main content se expande y reduce el padding */
+    .main-content[b-gkq5tnoyus] {
+        padding: 20px;
+    }
+    
+    /* Hacemos que la tabla sea desplazable horizontalmente en móvil */
+    .table-container[b-gkq5tnoyus] {
+        overflow-x: auto;
+    }
+    
+    /* Mínimo de ancho para que la tabla no se colapse */
+    table[b-gkq5tnoyus] {
+        min-width: 600px; 
+    }
+}

@@ -1,0 +1,107 @@
+@using CrudCafeteria.Models
+@using Microsoft.AspNetCore.Components.Forms
+@rendermode InteractiveServer
+
+
+@if (IsVisible)
+{
+    <div class="modal-overlay" @onclick="CloseModal">
+        <div class="modal-content" @onclick:stopPropagation="true">
+            <div class="modal-header">
+                
+                <h3>@(Gasto.Id == 0 ? "Crear Nuevo Gasto" : $"Gasto #{Gasto.Id}")</h3>
+                <button class="close-button" @onclick="CloseModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <EditForm Model="@Gasto" OnValidSubmit="HandleSave">
+                    <DataAnnotationsValidator />
+                    @if (!string.IsNullOrEmpty(ErrorMessage))
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @ErrorMessage
+                        </div>
+                    }
+                    <div class="form-group">
+                        <label>Descripción</label>
+                        <InputText @bind-Value="Gasto.Descripcion" class="form-control" />
+                        <ValidationMessage For="@(() => Gasto.Descripcion)" />
+                    </div>
+                    <div class="form-group">
+                        <label>Monto</label>
+                        <InputNumber @bind-Value="Gasto.Monto" class="form-control" step="0.01" /> 
+                        <ValidationMessage For="@(() => Gasto.Monto)" />
+                    </div>
+                    <div class="form-group">
+                        <label>Categoría</label>
+                        <InputText @bind-Value="Gasto.Categoria" class="form-control" />
+                        <ValidationMessage For="@(() => Gasto.Categoria)" />
+                    </div>
+                    <div class="form-group">
+                        <label>Tipo de Gasto</label>
+                        <InputSelect @bind-Value="Gasto.TipoGasto" class="form-control">
+                            <option value="">-- Seleccione un tipo --</option>
+                            <option value="Mantenimiento">Mantenimiento</option>
+                            <option value="Pagos">Pagos</option>
+                            <option value="Servicios">Servicios</option>
+                            <option value="Suministros">Suministros</option>
+                            <option value="Emergencias">Emergencias</option>
+                            <option value="Otros">Otros</option>
+                        </InputSelect>
+                        <ValidationMessage For="@(() => Gasto.TipoGasto)" />
+                    </div>
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <InputDate @bind-Value="Gasto.Fecha" class="form-control" />
+                        <ValidationMessage For="@(() => Gasto.Fecha)" />
+                    </div>
+
+                    @if (Gasto.Id > 0)
+                    {
+                        <div class="form-group">
+                            <label>Creado en</label>
+                            <InputDate @bind-Value="Gasto.CreatedAt" class="form-control" readonly />
+                        </div>
+                    }
+
+                    <div class="modal-footer d-flex justify-content-between">
+                        
+                        @if (Gasto.Id > 0)
+                        {
+                            <button type="button" class="btn btn-danger" @onclick="HandleDeleteClick">Eliminar</button>
+                        }
+                        
+                        <div>
+                            <button type="button" class="btn btn-secondary" @onclick="CloseModal">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter] public bool IsVisible { get; set; }
+    [Parameter] public Gasto Gasto { get; set; } = new(); 
+    [Parameter] public EventCallback OnClose { get; set; }
+    [Parameter] public EventCallback<Gasto> OnSave { get; set; }
+    [Parameter] public EventCallback<int> OnDelete { get; set; }
+    [Parameter] public string ErrorMessage { get; set; } = string.Empty;
+
+    private async Task CloseModal()
+    {
+        await OnClose.InvokeAsync();
+    }
+
+    private async Task HandleSave()
+    {
+        if (Gasto.Id > 0) Gasto.UpdatedAt = DateTime.Now;
+        await OnSave.InvokeAsync(Gasto);
+    }
+    
+    private async Task HandleDeleteClick()
+    {
+        await OnDelete.InvokeAsync(Gasto.Id);
+    }
+}

@@ -1,0 +1,3648 @@
+{
+  "Version": 1,
+  "Hash": "SFWunXRAcovI34taOKrr5rAn9HbOKhhTkPnMNO4TKDo=",
+  "Source": "CrudCafeteria",
+  "BasePath": "_content/CrudCafeteria",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CrudCafeteria/wwwroot",
+      "Source": "CrudCafeteria",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/j570znzw4c-wfszbcu946.gz",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "css/Login#[.{fingerprint=wfszbcu946}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/css/Login.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jjxbuutgwv",
+      "Integrity": "cZtyLFKIcxD40BBW2vyXq6qsIGCkBaVOEi1ZhEA+ElY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/css/Login.css"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/j63i4xewsf-he0t5d89dx.gz",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "CrudCafeteria#[.{fingerprint=he0t5d89dx}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/bundle/CrudCafeteria.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "e4enmuexo4",
+      "Integrity": "PtV0geBU+UsU8mr1YMG8uOjAhCSHdKPzUctlLIj5TxI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/bundle/CrudCafeteria.styles.css"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/nqv6d7k4qa-s9l2im6of5.gz",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "app#[.{fingerprint=s9l2im6of5}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yqpt5gbj97",
+      "Integrity": "ZgPHFBixjBryj6ZbqZVwlgZzuiQHe4aek6j7F00Dp88=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/app.css"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/qwtwqp6sle-he0t5d89dx.gz",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "CrudCafeteria#[.{fingerprint=he0t5d89dx}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/projectbundle/CrudCafeteria.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "e4enmuexo4",
+      "Integrity": "PtV0geBU+UsU8mr1YMG8uOjAhCSHdKPzUctlLIj5TxI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/projectbundle/CrudCafeteria.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/bundle/CrudCafeteria.styles.css",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/bundle/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "CrudCafeteria#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "he0t5d89dx",
+      "Integrity": "tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/bundle/CrudCafeteria.styles.css"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/projectbundle/CrudCafeteria.bundle.scp.css",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/projectbundle/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "CrudCafeteria#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "he0t5d89dx",
+      "Integrity": "tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/projectbundle/CrudCafeteria.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/app.css",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s9l2im6of5",
+      "Integrity": "MKJsMxwCq55xE7XHY6O5AcbfqoeVuqPghVVMqqfYP5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.css"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/css/Login.css",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "css/Login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wfszbcu946",
+      "Integrity": "vDVz1+lJrkFrLKunULN7fc1IF4hWSPmUvCfSCCAArSI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/Login.css"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/favicon.png",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.png"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/batido.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/batido#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9yuqz9tq51",
+      "Integrity": "MTak3xxnGbJSBHn9gLq8/i+/06Dgonj/J9erK7iA1a8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/batido.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/cachito.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/cachito#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nqny58925x",
+      "Integrity": "rwHrprQBJxZBoWgHEqDTW85UwyXvcPnX5hXTgrigg+w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/cachito.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/cafes.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/cafes#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wgbtk8sf6l",
+      "Integrity": "UBNgeAZuVvZeacoRZ15bq36DoyXUgZ6NdeZ8SASt7jI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/cafes.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/crepa.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/crepa#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vhkgc6ocmt",
+      "Integrity": "w68tlravcGRYYianfG1itPldN2eZ2ozogsZX07Ss/ig=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/crepa.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/drink.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/drink#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o8wybenrn1",
+      "Integrity": "SBXyXpSPX8nIFE+U5Eoj9rGz2jHfB8Ve9/l8YsNXXsI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/drink.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/frio.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/frio#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qhwa1dv16i",
+      "Integrity": "/ue6Nrk7rogHqx8sXQb8kUYuvJ5c4mOkD0n8biOlE2U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/frio.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/galleta.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/galleta#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "idyj136cc1",
+      "Integrity": "xiGt2QGtjfcIQhP82fyR0UXcvvOlP+ChwKzJN8Hkq1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/galleta.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/helado.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/helado#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oiuz9v1kea",
+      "Integrity": "wOVz2Z8KJQq1VDVlr8geShExsLcg5ZiY6qSvNt8Wrm0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/helado.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/hotcakes.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/hotcakes#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qknag5phxd",
+      "Integrity": "Jla5RI+C4yfTaDk4ew5SPAlpgphq5V8PefE9d9Vs1co=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/hotcakes.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/login.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/login#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ib2qnmuegs",
+      "Integrity": "woJ6T/btoGr1edivBaTQhNbpqzepeITvIfxHPPrpRe8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/login.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/logoapp.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/logoapp#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3shjdlegwg",
+      "Integrity": "PZ4+UI1aeESXNa6VBKVtRQfKJ/WETTV16AM8CiPT0Co=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/logoapp.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/matcha.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/matcha#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mbje1s7hg3",
+      "Integrity": "rmX6+emjJV+WPN4gkYByDAM6JeD5ikg37zCVS5v5FN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/matcha.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/naranja.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/naranja#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fcc3xubuau",
+      "Integrity": "P4qC/kt/ju9oSk4zTP9L+Mfpootx2tR6VKGxCrDRMgg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/naranja.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/portada#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ib2qnmuegs",
+      "Integrity": "woJ6T/btoGr1edivBaTQhNbpqzepeITvIfxHPPrpRe8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/portada.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada2.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/portada2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rlctkavugy",
+      "Integrity": "8a5J/09tTbioRNN1LYMGK65ZTybzP78L3v+b/ce6BJI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/portada2.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada3.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/portada3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "91mouojx9s",
+      "Integrity": "c8zwskOSBRKc4Z1RRt45gKRqpORaSfW92SMzW6WdS+k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/portada3.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada4.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/portada4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6jqcb0xb0j",
+      "Integrity": "UswMyRBNnro/vON9XsKLSUG+NpCLbVM09rtg4ou2q/E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/portada4.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/torta.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/torta#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "88fazf04cc",
+      "Integrity": "mArNxcUYxNl/Udi0vy93AIxyrhiyrABeVwfm64EFEKo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/torta.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/tostatadas.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/tostatadas#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ldfzn420kg",
+      "Integrity": "mV+jnJpJeLw7X6U/qJgx40nh8BdhzxZvLJ2y59awl50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/tostatadas.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/waffles.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/waffles#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e5rwvbjd33",
+      "Integrity": "jrPidAhSiUufx0bq8kKxy+ZA+coHW5DgSZqa3u/xBwI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/waffles.jpg"
+    },
+    {
+      "Identity": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/yogurt.jpg",
+      "SourceId": "CrudCafeteria",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/",
+      "BasePath": "_content/CrudCafeteria",
+      "RelativePath": "pictures/yogurt#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "09vuo80rki",
+      "Integrity": "tPG+eoBuSlUEbga3zNDixFd6RD0XsSssSsWNWbGPgQw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pictures/yogurt.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/nqv6d7k4qa-s9l2im6of5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000753579503"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1326"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZgPHFBixjBryj6ZbqZVwlgZzuiQHe4aek6j7F00Dp88=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 14:40:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MKJsMxwCq55xE7XHY6O5AcbfqoeVuqPghVVMqqfYP5g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MKJsMxwCq55xE7XHY6O5AcbfqoeVuqPghVVMqqfYP5g="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4089"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MKJsMxwCq55xE7XHY6O5AcbfqoeVuqPghVVMqqfYP5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 14:40:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MKJsMxwCq55xE7XHY6O5AcbfqoeVuqPghVVMqqfYP5g="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/nqv6d7k4qa-s9l2im6of5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZgPHFBixjBryj6ZbqZVwlgZzuiQHe4aek6j7F00Dp88=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 14:40:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZgPHFBixjBryj6ZbqZVwlgZzuiQHe4aek6j7F00Dp88="
+        }
+      ]
+    },
+    {
+      "Route": "app.s9l2im6of5.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/nqv6d7k4qa-s9l2im6of5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000753579503"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1326"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZgPHFBixjBryj6ZbqZVwlgZzuiQHe4aek6j7F00Dp88=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 14:40:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MKJsMxwCq55xE7XHY6O5AcbfqoeVuqPghVVMqqfYP5g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s9l2im6of5"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MKJsMxwCq55xE7XHY6O5AcbfqoeVuqPghVVMqqfYP5g="
+        }
+      ]
+    },
+    {
+      "Route": "app.s9l2im6of5.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4089"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MKJsMxwCq55xE7XHY6O5AcbfqoeVuqPghVVMqqfYP5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 14:40:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s9l2im6of5"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MKJsMxwCq55xE7XHY6O5AcbfqoeVuqPghVVMqqfYP5g="
+        }
+      ]
+    },
+    {
+      "Route": "app.s9l2im6of5.css.gz",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/nqv6d7k4qa-s9l2im6of5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZgPHFBixjBryj6ZbqZVwlgZzuiQHe4aek6j7F00Dp88=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 14:40:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s9l2im6of5"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZgPHFBixjBryj6ZbqZVwlgZzuiQHe4aek6j7F00Dp88="
+        }
+      ]
+    },
+    {
+      "Route": "CrudCafeteria.bundle.scp.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/qwtwqp6sle-he0t5d89dx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000232666356"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4297"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PtV0geBU+UsU8mr1YMG8uOjAhCSHdKPzUctlLIj5TxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 18:29:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY="
+        }
+      ]
+    },
+    {
+      "Route": "CrudCafeteria.bundle.scp.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/projectbundle/CrudCafeteria.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 18:29:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY="
+        }
+      ]
+    },
+    {
+      "Route": "CrudCafeteria.bundle.scp.css.gz",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/qwtwqp6sle-he0t5d89dx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PtV0geBU+UsU8mr1YMG8uOjAhCSHdKPzUctlLIj5TxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 18:29:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PtV0geBU+UsU8mr1YMG8uOjAhCSHdKPzUctlLIj5TxI="
+        }
+      ]
+    },
+    {
+      "Route": "CrudCafeteria.he0t5d89dx.bundle.scp.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/qwtwqp6sle-he0t5d89dx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000232666356"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4297"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PtV0geBU+UsU8mr1YMG8uOjAhCSHdKPzUctlLIj5TxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 18:29:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "he0t5d89dx"
+        },
+        {
+          "Name": "label",
+          "Value": "CrudCafeteria.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY="
+        }
+      ]
+    },
+    {
+      "Route": "CrudCafeteria.he0t5d89dx.bundle.scp.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/projectbundle/CrudCafeteria.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 18:29:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "he0t5d89dx"
+        },
+        {
+          "Name": "label",
+          "Value": "CrudCafeteria.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY="
+        }
+      ]
+    },
+    {
+      "Route": "CrudCafeteria.he0t5d89dx.bundle.scp.css.gz",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/qwtwqp6sle-he0t5d89dx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PtV0geBU+UsU8mr1YMG8uOjAhCSHdKPzUctlLIj5TxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 18:29:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "he0t5d89dx"
+        },
+        {
+          "Name": "label",
+          "Value": "CrudCafeteria.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PtV0geBU+UsU8mr1YMG8uOjAhCSHdKPzUctlLIj5TxI="
+        }
+      ]
+    },
+    {
+      "Route": "CrudCafeteria.he0t5d89dx.styles.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/j63i4xewsf-he0t5d89dx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000232666356"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4297"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PtV0geBU+UsU8mr1YMG8uOjAhCSHdKPzUctlLIj5TxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 18:29:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "he0t5d89dx"
+        },
+        {
+          "Name": "label",
+          "Value": "CrudCafeteria.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY="
+        }
+      ]
+    },
+    {
+      "Route": "CrudCafeteria.he0t5d89dx.styles.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/bundle/CrudCafeteria.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 18:29:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "he0t5d89dx"
+        },
+        {
+          "Name": "label",
+          "Value": "CrudCafeteria.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY="
+        }
+      ]
+    },
+    {
+      "Route": "CrudCafeteria.he0t5d89dx.styles.css.gz",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/j63i4xewsf-he0t5d89dx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PtV0geBU+UsU8mr1YMG8uOjAhCSHdKPzUctlLIj5TxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 18:29:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "he0t5d89dx"
+        },
+        {
+          "Name": "label",
+          "Value": "CrudCafeteria.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PtV0geBU+UsU8mr1YMG8uOjAhCSHdKPzUctlLIj5TxI="
+        }
+      ]
+    },
+    {
+      "Route": "CrudCafeteria.styles.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/j63i4xewsf-he0t5d89dx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000232666356"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4297"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PtV0geBU+UsU8mr1YMG8uOjAhCSHdKPzUctlLIj5TxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 18:29:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY="
+        }
+      ]
+    },
+    {
+      "Route": "CrudCafeteria.styles.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/bundle/CrudCafeteria.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 18:29:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tx9XaO3Xtkn5vdxAUYposl9SjbnW0oW80nC0Wy70yTY="
+        }
+      ]
+    },
+    {
+      "Route": "CrudCafeteria.styles.css.gz",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/j63i4xewsf-he0t5d89dx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PtV0geBU+UsU8mr1YMG8uOjAhCSHdKPzUctlLIj5TxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Nov 2025 18:29:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PtV0geBU+UsU8mr1YMG8uOjAhCSHdKPzUctlLIj5TxI="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/j570znzw4c-wfszbcu946.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001324503311"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "754"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZtyLFKIcxD40BBW2vyXq6qsIGCkBaVOEi1ZhEA+ElY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 22:36:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vDVz1+lJrkFrLKunULN7fc1IF4hWSPmUvCfSCCAArSI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vDVz1+lJrkFrLKunULN7fc1IF4hWSPmUvCfSCCAArSI="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/css/Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vDVz1+lJrkFrLKunULN7fc1IF4hWSPmUvCfSCCAArSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 22:36:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vDVz1+lJrkFrLKunULN7fc1IF4hWSPmUvCfSCCAArSI="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.css.gz",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/j570znzw4c-wfszbcu946.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZtyLFKIcxD40BBW2vyXq6qsIGCkBaVOEi1ZhEA+ElY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 22:36:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZtyLFKIcxD40BBW2vyXq6qsIGCkBaVOEi1ZhEA+ElY="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.wfszbcu946.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/j570znzw4c-wfszbcu946.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001324503311"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "754"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZtyLFKIcxD40BBW2vyXq6qsIGCkBaVOEi1ZhEA+ElY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 22:36:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vDVz1+lJrkFrLKunULN7fc1IF4hWSPmUvCfSCCAArSI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wfszbcu946"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vDVz1+lJrkFrLKunULN7fc1IF4hWSPmUvCfSCCAArSI="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.wfszbcu946.css",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/css/Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vDVz1+lJrkFrLKunULN7fc1IF4hWSPmUvCfSCCAArSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 22:36:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wfszbcu946"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vDVz1+lJrkFrLKunULN7fc1IF4hWSPmUvCfSCCAArSI="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.wfszbcu946.css.gz",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/compressed/j570znzw4c-wfszbcu946.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZtyLFKIcxD40BBW2vyXq6qsIGCkBaVOEi1ZhEA+ElY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 22:36:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wfszbcu946"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Login.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZtyLFKIcxD40BBW2vyXq6qsIGCkBaVOEi1ZhEA+ElY="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Nov 2025 14:48:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Nov 2025 14:48:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/batido.9yuqz9tq51.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/batido.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11875"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTak3xxnGbJSBHn9gLq8/i+/06Dgonj/J9erK7iA1a8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9yuqz9tq51"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/batido.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MTak3xxnGbJSBHn9gLq8/i+/06Dgonj/J9erK7iA1a8="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/batido.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/batido.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11875"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTak3xxnGbJSBHn9gLq8/i+/06Dgonj/J9erK7iA1a8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MTak3xxnGbJSBHn9gLq8/i+/06Dgonj/J9erK7iA1a8="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/cachito.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/cachito.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18593"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rwHrprQBJxZBoWgHEqDTW85UwyXvcPnX5hXTgrigg+w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rwHrprQBJxZBoWgHEqDTW85UwyXvcPnX5hXTgrigg+w="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/cachito.nqny58925x.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/cachito.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18593"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rwHrprQBJxZBoWgHEqDTW85UwyXvcPnX5hXTgrigg+w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nqny58925x"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/cachito.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rwHrprQBJxZBoWgHEqDTW85UwyXvcPnX5hXTgrigg+w="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/cafes.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/cafes.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17813"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UBNgeAZuVvZeacoRZ15bq36DoyXUgZ6NdeZ8SASt7jI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UBNgeAZuVvZeacoRZ15bq36DoyXUgZ6NdeZ8SASt7jI="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/cafes.wgbtk8sf6l.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/cafes.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17813"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UBNgeAZuVvZeacoRZ15bq36DoyXUgZ6NdeZ8SASt7jI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wgbtk8sf6l"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/cafes.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UBNgeAZuVvZeacoRZ15bq36DoyXUgZ6NdeZ8SASt7jI="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/crepa.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/crepa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w68tlravcGRYYianfG1itPldN2eZ2ozogsZX07Ss/ig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w68tlravcGRYYianfG1itPldN2eZ2ozogsZX07Ss/ig="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/crepa.vhkgc6ocmt.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/crepa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w68tlravcGRYYianfG1itPldN2eZ2ozogsZX07Ss/ig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vhkgc6ocmt"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/crepa.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w68tlravcGRYYianfG1itPldN2eZ2ozogsZX07Ss/ig="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/drink.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/drink.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SBXyXpSPX8nIFE+U5Eoj9rGz2jHfB8Ve9/l8YsNXXsI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SBXyXpSPX8nIFE+U5Eoj9rGz2jHfB8Ve9/l8YsNXXsI="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/drink.o8wybenrn1.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/drink.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SBXyXpSPX8nIFE+U5Eoj9rGz2jHfB8Ve9/l8YsNXXsI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o8wybenrn1"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/drink.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SBXyXpSPX8nIFE+U5Eoj9rGz2jHfB8Ve9/l8YsNXXsI="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/frio.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/frio.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/ue6Nrk7rogHqx8sXQb8kUYuvJ5c4mOkD0n8biOlE2U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/ue6Nrk7rogHqx8sXQb8kUYuvJ5c4mOkD0n8biOlE2U="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/frio.qhwa1dv16i.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/frio.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/ue6Nrk7rogHqx8sXQb8kUYuvJ5c4mOkD0n8biOlE2U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qhwa1dv16i"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/frio.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/ue6Nrk7rogHqx8sXQb8kUYuvJ5c4mOkD0n8biOlE2U="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/galleta.idyj136cc1.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/galleta.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xiGt2QGtjfcIQhP82fyR0UXcvvOlP+ChwKzJN8Hkq1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "idyj136cc1"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/galleta.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xiGt2QGtjfcIQhP82fyR0UXcvvOlP+ChwKzJN8Hkq1w="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/galleta.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/galleta.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xiGt2QGtjfcIQhP82fyR0UXcvvOlP+ChwKzJN8Hkq1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xiGt2QGtjfcIQhP82fyR0UXcvvOlP+ChwKzJN8Hkq1w="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/helado.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/helado.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15041"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wOVz2Z8KJQq1VDVlr8geShExsLcg5ZiY6qSvNt8Wrm0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wOVz2Z8KJQq1VDVlr8geShExsLcg5ZiY6qSvNt8Wrm0="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/helado.oiuz9v1kea.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/helado.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15041"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wOVz2Z8KJQq1VDVlr8geShExsLcg5ZiY6qSvNt8Wrm0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oiuz9v1kea"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/helado.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wOVz2Z8KJQq1VDVlr8geShExsLcg5ZiY6qSvNt8Wrm0="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/hotcakes.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/hotcakes.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jla5RI+C4yfTaDk4ew5SPAlpgphq5V8PefE9d9Vs1co=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jla5RI+C4yfTaDk4ew5SPAlpgphq5V8PefE9d9Vs1co="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/hotcakes.qknag5phxd.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/hotcakes.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jla5RI+C4yfTaDk4ew5SPAlpgphq5V8PefE9d9Vs1co=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qknag5phxd"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/hotcakes.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jla5RI+C4yfTaDk4ew5SPAlpgphq5V8PefE9d9Vs1co="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/login.ib2qnmuegs.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/login.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "156222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"woJ6T/btoGr1edivBaTQhNbpqzepeITvIfxHPPrpRe8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 16:38:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ib2qnmuegs"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/login.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-woJ6T/btoGr1edivBaTQhNbpqzepeITvIfxHPPrpRe8="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/login.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/login.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "156222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"woJ6T/btoGr1edivBaTQhNbpqzepeITvIfxHPPrpRe8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 16:38:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-woJ6T/btoGr1edivBaTQhNbpqzepeITvIfxHPPrpRe8="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/logoapp.3shjdlegwg.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/logoapp.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PZ4+UI1aeESXNa6VBKVtRQfKJ/WETTV16AM8CiPT0Co=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 16:38:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3shjdlegwg"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/logoapp.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PZ4+UI1aeESXNa6VBKVtRQfKJ/WETTV16AM8CiPT0Co="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/logoapp.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/logoapp.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PZ4+UI1aeESXNa6VBKVtRQfKJ/WETTV16AM8CiPT0Co=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Nov 2025 16:38:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PZ4+UI1aeESXNa6VBKVtRQfKJ/WETTV16AM8CiPT0Co="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/matcha.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/matcha.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rmX6+emjJV+WPN4gkYByDAM6JeD5ikg37zCVS5v5FN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rmX6+emjJV+WPN4gkYByDAM6JeD5ikg37zCVS5v5FN0="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/matcha.mbje1s7hg3.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/matcha.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rmX6+emjJV+WPN4gkYByDAM6JeD5ikg37zCVS5v5FN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mbje1s7hg3"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/matcha.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rmX6+emjJV+WPN4gkYByDAM6JeD5ikg37zCVS5v5FN0="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/naranja.fcc3xubuau.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/naranja.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P4qC/kt/ju9oSk4zTP9L+Mfpootx2tR6VKGxCrDRMgg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fcc3xubuau"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/naranja.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P4qC/kt/ju9oSk4zTP9L+Mfpootx2tR6VKGxCrDRMgg="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/naranja.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/naranja.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P4qC/kt/ju9oSk4zTP9L+Mfpootx2tR6VKGxCrDRMgg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P4qC/kt/ju9oSk4zTP9L+Mfpootx2tR6VKGxCrDRMgg="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/portada.ib2qnmuegs.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "156222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"woJ6T/btoGr1edivBaTQhNbpqzepeITvIfxHPPrpRe8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ib2qnmuegs"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/portada.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-woJ6T/btoGr1edivBaTQhNbpqzepeITvIfxHPPrpRe8="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/portada.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "156222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"woJ6T/btoGr1edivBaTQhNbpqzepeITvIfxHPPrpRe8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-woJ6T/btoGr1edivBaTQhNbpqzepeITvIfxHPPrpRe8="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/portada2.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8a5J/09tTbioRNN1LYMGK65ZTybzP78L3v+b/ce6BJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8a5J/09tTbioRNN1LYMGK65ZTybzP78L3v+b/ce6BJI="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/portada2.rlctkavugy.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8a5J/09tTbioRNN1LYMGK65ZTybzP78L3v+b/ce6BJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rlctkavugy"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/portada2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8a5J/09tTbioRNN1LYMGK65ZTybzP78L3v+b/ce6BJI="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/portada3.91mouojx9s.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8zwskOSBRKc4Z1RRt45gKRqpORaSfW92SMzW6WdS+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "91mouojx9s"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/portada3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8zwskOSBRKc4Z1RRt45gKRqpORaSfW92SMzW6WdS+k="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/portada3.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c8zwskOSBRKc4Z1RRt45gKRqpORaSfW92SMzW6WdS+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c8zwskOSBRKc4Z1RRt45gKRqpORaSfW92SMzW6WdS+k="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/portada4.6jqcb0xb0j.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UswMyRBNnro/vON9XsKLSUG+NpCLbVM09rtg4ou2q/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6jqcb0xb0j"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/portada4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UswMyRBNnro/vON9XsKLSUG+NpCLbVM09rtg4ou2q/E="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/portada4.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UswMyRBNnro/vON9XsKLSUG+NpCLbVM09rtg4ou2q/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UswMyRBNnro/vON9XsKLSUG+NpCLbVM09rtg4ou2q/E="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/torta.88fazf04cc.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/torta.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mArNxcUYxNl/Udi0vy93AIxyrhiyrABeVwfm64EFEKo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "88fazf04cc"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/torta.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mArNxcUYxNl/Udi0vy93AIxyrhiyrABeVwfm64EFEKo="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/torta.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/torta.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mArNxcUYxNl/Udi0vy93AIxyrhiyrABeVwfm64EFEKo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mArNxcUYxNl/Udi0vy93AIxyrhiyrABeVwfm64EFEKo="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/tostatadas.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/tostatadas.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mV+jnJpJeLw7X6U/qJgx40nh8BdhzxZvLJ2y59awl50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mV+jnJpJeLw7X6U/qJgx40nh8BdhzxZvLJ2y59awl50="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/tostatadas.ldfzn420kg.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/tostatadas.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mV+jnJpJeLw7X6U/qJgx40nh8BdhzxZvLJ2y59awl50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ldfzn420kg"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/tostatadas.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mV+jnJpJeLw7X6U/qJgx40nh8BdhzxZvLJ2y59awl50="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/waffles.e5rwvbjd33.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/waffles.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30051"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jrPidAhSiUufx0bq8kKxy+ZA+coHW5DgSZqa3u/xBwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e5rwvbjd33"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/waffles.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jrPidAhSiUufx0bq8kKxy+ZA+coHW5DgSZqa3u/xBwI="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/waffles.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/waffles.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30051"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jrPidAhSiUufx0bq8kKxy+ZA+coHW5DgSZqa3u/xBwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jrPidAhSiUufx0bq8kKxy+ZA+coHW5DgSZqa3u/xBwI="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/yogurt.09vuo80rki.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/yogurt.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tPG+eoBuSlUEbga3zNDixFd6RD0XsSssSsWNWbGPgQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "09vuo80rki"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/yogurt.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tPG+eoBuSlUEbga3zNDixFd6RD0XsSssSsWNWbGPgQw="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/yogurt.jpg",
+      "AssetFile": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/yogurt.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tPG+eoBuSlUEbga3zNDixFd6RD0XsSssSsWNWbGPgQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Nov 2025 19:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tPG+eoBuSlUEbga3zNDixFd6RD0XsSssSsWNWbGPgQw="
+        }
+      ]
+    }
+  ]
+}

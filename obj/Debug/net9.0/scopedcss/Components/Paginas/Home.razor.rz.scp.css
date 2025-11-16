@@ -1,0 +1,24 @@
+.banner[b-f2bktnvalz]{
+    /* ELIMINAR: margin-top: -1rem; */
+    background-image: linear-gradient(100deg,#000000, #00002000), url('/pictures/portada.jpg');
+    height: 50rem; /* Puedes ajustar esta altura */
+    background-size: cover;
+    background-position: center; /* Asegura que la parte central sea visible */
+}
+.content-banner[b-f2bktnvalz]{
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 18rem 0;
+}
+.content-banner p[b-f2bktnvalz]{
+    color: rgb(190, 164, 135);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.content-banner h2[b-f2bktnvalz]{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.1;
+}

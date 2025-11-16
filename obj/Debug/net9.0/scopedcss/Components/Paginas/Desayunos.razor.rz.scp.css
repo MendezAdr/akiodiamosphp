@@ -1,0 +1,83 @@
+/* ---------------------------------------------------- */
+/* Estilos Globales de Imágenes y Contenedores */
+/* ---------------------------------------------------- */
+
+/* CAMBIO CLAVE: UNIFICACIÓN DE ESTILOS DE IMAGEN */
+.content-banner img[b-dybbstqj4m],
+.tostadas2 img[b-dybbstqj4m],
+.hotcakes2 img[b-dybbstqj4m],
+.cachito2 img[b-dybbstqj4m],
+.yogurt2 img[b-dybbstqj4m] {
+    border-style: outset;
+    border-radius: 40px; 
+    width: 9rem;
+    height: 12rem;
+    object-fit: cover;
+    display: block;
+}
+
+/* Estilo unificado para los contenedores de título e imagen */
+.content-banner[b-dybbstqj4m], .tostadas[b-dybbstqj4m], .tostadas2[b-dybbstqj4m], .hotcakes[b-dybbstqj4m], .hotcakes2[b-dybbstqj4m], .cachito[b-dybbstqj4m], .cachito2[b-dybbstqj4m], .yogurt[b-dybbstqj4m], .yogurt2[b-dybbstqj4m], .text[b-dybbstqj4m] {
+    width: 250px; /* Ancho fijo para cada bloque en desktop */
+    margin: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-banner h2[b-dybbstqj4m], .tostadas h2[b-dybbstqj4m], .hotcakes h2[b-dybbstqj4m], .cachito h2[b-dybbstqj4m], .yogurt h2[b-dybbstqj4m] {
+    color: rgb(190, 164, 135); 
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.text[b-dybbstqj4m] {
+    /* Contenedor de texto libre al final */
+    width: 100%; 
+    order: 99; /* Asegura que vaya al final */
+    margin-top: 30px;
+}
+.text p[b-dybbstqj4m] {
+    color: rgb(235, 200, 160);
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/* ---------------------------------------------------- */
+/* Contenedor Principal (Flexbox) */
+/* ---------------------------------------------------- */
+.banner[b-dybbstqj4m] {
+    background-image: linear-gradient(100deg,#000000, #00002000), url('/pictures/portada3.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: auto; 
+    min-height: 50rem;
+    width: 100%;
+
+    display: flex; /* Habilitamos Flexbox */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start;
+    padding: 10rem 1rem 3rem 1rem;
+}
+
+/* ---------------------------------------------------- */
+/* Responsive Design (Desayunos) */
+/* ---------------------------------------------------- */
+
+@media (max-width: 600px) {
+     .banner[b-dybbstqj4m] {
+        padding-top: 80px; 
+    }
+    .content-banner[b-dybbstqj4m], .tostadas[b-dybbstqj4m], .tostadas2[b-dybbstqj4m], .hotcakes[b-dybbstqj4m], .hotcakes2[b-dybbstqj4m], .cachito[b-dybbstqj4m], .cachito2[b-dybbstqj4m], .yogurt[b-dybbstqj4m], .yogurt2[b-dybbstqj4m] {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .content-banner h2[b-dybbstqj4m], .tostadas h2[b-dybbstqj4m], .hotcakes h2[b-dybbstqj4m], .cachito h2[b-dybbstqj4m], .yogurt h2[b-dybbstqj4m] {
+        font-size: 1.5rem;
+    }
+}

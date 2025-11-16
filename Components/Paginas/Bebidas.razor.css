@@ -1,0 +1,96 @@
+/* ---------------------------------------------------- */
+/* Estilos Globales de Imágenes y Contenedores */
+/* ---------------------------------------------------- */
+.content-banner {
+    width: 100%; /* Ocupa todo el ancho */
+    max-width: 1200px; /* Ancho máximo en desktop */
+    margin: 30px auto 0; /* Centrado y espacio */
+
+    display: grid;
+    /* En desktop: 4 columnas (250px) si caben, o las que quepan */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 30px; /* Espacio entre los ítems */
+    justify-content: center; /* Centra los ítems si no ocupan todo el ancho */
+}
+/* REGLA UNIFICADA: Aplica el estilo deseado a TODAS las imágenes (<img>) */
+.content-banner img,
+.cafe2 img,
+.frio2 img,
+.drink2 img,
+.matcha2 img {
+    /* Forma y Tamaño deseados */
+    border-radius: 80px; 
+    width: 9rem;
+    height: 12rem;
+    
+    /* Aseguramos que la imagen no se estire */
+    object-fit: cover; 
+
+    /* Estilos adicionales */
+    border-style: outset; 
+    display: block; 
+}
+
+/* Estilo unificado para los contenedores de título e imagen */
+.content-banner, .cafe, .cafe2, .frio, .frio2, .drink, .drink2, .matcha, .matcha2 {
+    width: 250px; /* Ancho fijo para cada bloque en desktop */
+    margin: 15px; /* Espacio entre bloques */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-banner h2, .cafe h2, .frio h2, .drink h2, .matcha h2 {
+    color: rgb(190, 164, 135); 
+    font-size: 1.8rem; 
+    margin: 1rem 0; /* Espacio entre título y otros elementos */
+    font-weight: 500;
+}
+
+.producto-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Eliminar todos los 'margin-left' y 'margin-top' absolutos de las imágenes y títulos */
+}
+
+.producto-item h2 {
+    color: rgb(190, 164, 135); 
+    font-size: 1.8rem; 
+    margin: 1rem 0; 
+    font-weight: 500;
+}
+/* ---------------------------------------------------- */
+/* Contenedor Principal (Flexbox) */
+/* ---------------------------------------------------- */
+
+.banner {
+    /* ... (mantener estilos de fondo y min-height) ... */
+    background-image: linear-gradient(100deg,#000000, #00002000), url('/pictures/portada2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: auto; 
+    min-height: 50rem;
+    width: 100%;
+
+    /* Centra el content-banner */
+    display: flex; 
+    flex-direction: column; /* Para que el contenido principal vaya abajo */
+    align-items: center; 
+    padding: 10rem 1rem 3rem 1rem; 
+}
+
+/* ---------------------------------------------------- */
+/* Responsive Design (Bebidas) */
+/* ---------------------------------------------------- */
+
+@media (max-width: 580px) {
+    /* Esto ya está cubierto por auto-fit en .content-banner, pero es bueno tener un punto de control */
+    .content-banner {
+        /* Se ajustará automáticamente a 1 columna o 2 más pequeñas */
+        grid-template-columns: 1fr; /* Forzar 1 columna si es muy estrecho */
+    }
+}

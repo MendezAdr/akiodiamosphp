@@ -1,0 +1,26 @@
+@using Microsoft.AspNetCore.Components.Routing
+
+
+    <div class="container-navbar">
+    <nav class="navbar">
+        <ul class="menu">
+            <li><NavLink class="menu-item" href="/gastos">Gastos</NavLink></li>
+            <li><NavLink class="menu-item" href="/usuarios">Usuarios</NavLink></li>
+            <li><NavLink class="menu-item" href="/ingresos">Ingresos</NavLink></li>
+            
+            <li class="dropdown">
+                <div class="menu-item dropdown-toggle">
+                    Productos 
+                    <span class="arrow">&#9662;</span>
+                </div>
+                
+                <div class="dropdown-content">
+                    <NavLink class="dropdown-item" href="/bebidas">Bebidas Frías</NavLink>
+                    <NavLink class="dropdown-item" href="/desayunos">Desayunos</NavLink>
+                    <NavLink class="dropdown-item" href="/postres">Postres</NavLink>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</div>
+

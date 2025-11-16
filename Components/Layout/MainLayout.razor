@@ -1,0 +1,12 @@
+@inherits LayoutComponentBase
+
+<div class="page">
+    <header style="position: fixed; top: 0; left: 0; right: 0; z-index: 10; height: 60px;"> 
+        <NavMenu />
+    </header>
+
+
+    <main style="display: flex; flex-grow: 1; overflow-y: auto; width: 100%;"> 
+        @Body 
+    </main>
+</div>

@@ -1,0 +1,280 @@
+@page "/gastos"
+@rendermode InteractiveServer
+@using CrudCafeteria.Models
+@using CrudCafeteria.Components.Shared 
+@using CrudCafeteria.Services
+
+@inject GastoService GastoSvc
+
+@*attribute [Authorize]*@
+
+<div class="gastos-container">
+    <div class="background-overlay"></div>
+    
+    <main class="main-content">
+        @if (!string.IsNullOrEmpty(successMessage))
+    {
+        <div class="alert alert-success" role="alert">
+            @successMessage
+        </div>
+    }
+        <div class="page-toolbar">
+        <button class="sidebar-button" @onclick="OpenCreateModal">Nuevo Gasto</button>
+
+        <div class="search-container">
+            <InputText @bind-Value="searchTerm" class="search-input" placeholder="Buscar por descripción..." @onkeyup="HandleSearchInput" />
+            <button class="sidebar-button search-button" @onclick="ApplySearch">Buscar</button>
+
+            @if (!string.IsNullOrWhiteSpace(appliedSearchTerm))
+        {
+            <button class="clear-search-button" @onclick="ClearSearch">Limpiar</button>
+        }
+        </div>
+    </div>
+    <div class="table-container">
+            @if (movimientos == null)
+            {
+                <p><em>Cargando datos desde la base de datos...</em></p>
+            }
+            else
+            {
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Descripción</th>
+                            <th>Monto</th>
+                            <th>Categoría</th>
+                            <th>Fecha</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var gasto in MovimientosPaginaActual)
+                    {
+                        <tr ondblclick="() => OpenEditModal(gasto)">
+                            <td>@gasto.Id</td>
+                            <td>@gasto.Descripcion</td>
+                            <td>
+                                <span class="gasto-monto">
+                                    Bs. @gasto.Monto.ToString("N2")
+                                </span>
+                            </td>
+                            <td>@gasto.Categoria</td>
+                            <td>@gasto.Fecha.ToShortDateString()</td>
+                            <td>
+                                <button class= "action-button btn-editar" @onclick="() => OpenEditModal(gasto)">Editar</button>
+                                <button class= "action-button btn-eliminar" @onclick="() => DeleteGasto(gasto.Id)">Eliminar</button>
+                            </td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+            }
+        </div>
+
+    </main>
+</div>
+
+
+@*=======================esto de aqui es para la logica del modal============================= *@
+
+@if (isModalVisible)
+{
+    
+    <CreateGastoModal 
+    IsVisible="@isModalVisible" 
+    Gasto="@gastoToEdit"
+    ErrorMessage="@modalErrorMessage"
+    OnClose="CloseModal" 
+    OnSave="HandleGastoSaved" 
+    OnDelete="DeleteGasto" 
+/>
+}
+
+
+@code {
+    
+    private List<Gasto> allMovimientos = new List<Gasto>(); //esta lista tiene los datos en bruto
+    private List<Gasto> movimientos = new List<Gasto>(); //esta los tiene filtrados
+    private Gasto gastoToEdit = new Gasto();
+    private bool isModalVisible = false; 
+
+    private string searchTerm = string.Empty; 
+    private string appliedSearchTerm = string.Empty;
+
+    private string successMessage = string.Empty;
+    private string modalErrorMessage = string.Empty;
+
+    
+    // Lógica de Paginación
+    
+    private int PaginaActual = 1;
+    private const int ElementosPorPagina = 10;
+    private int TotalPaginas => (int)Math.Ceiling(movimientos.Count / (double)ElementosPorPagina);
+
+    private IEnumerable<Gasto> MovimientosPaginaActual => movimientos
+        .Skip((PaginaActual - 1) * ElementosPorPagina)
+        .Take(ElementosPorPagina);
+
+    protected override async Task OnInitializedAsync()
+    {
+        
+        await CargarGastos();
+
+        
+    }
+
+    private Task CambiarPagina(int nuevaPagina)
+    {
+        if (nuevaPagina >= 1 && nuevaPagina <= TotalPaginas)
+        {
+            PaginaActual = nuevaPagina;
+            StateHasChanged();
+        }
+        return Task.CompletedTask;
+        
+    }
+
+    private void ApplySearch()
+    {
+        appliedSearchTerm = searchTerm;
+        PaginaActual = 1; 
+        ClearFilterAndPaginate();
+    }
+
+    private void ClearSearch()
+{
+    searchTerm = string.Empty;      
+    appliedSearchTerm = string.Empty; 
+    ClearFilterAndPaginate(); 
+}
+
+    private void ClearFilterAndPaginate()
+    {
+    if (string.IsNullOrWhiteSpace(appliedSearchTerm))
+    {
+        movimientos = allMovimientos; 
+    }
+    else
+    {
+
+        movimientos = allMovimientos
+            .Where(g => 
+                
+                g.Descripcion.Contains(appliedSearchTerm, StringComparison.CurrentCultureIgnoreCase) ||
+                g.Categoria.Contains(appliedSearchTerm, StringComparison.CurrentCultureIgnoreCase))
+            .ToList();
+    }
+
+    PaginaActual = 1; 
+    StateHasChanged(); 
+}
+
+    
+    private void HandleSearchInput(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            ApplySearch();
+        }
+    }
+
+    
+    // Lógica del Modal
+    
+
+    private void OpenCreateModal()
+    {
+        successMessage = string.Empty; 
+        modalErrorMessage = string.Empty;
+
+        gastoToEdit = new Gasto
+        {
+            Fecha = DateTime.Now,
+            Monto = 0.00m,
+            Descripcion = string.Empty,
+            Categoria = string.Empty,
+            UsuarioId = 1
+            
+        };
+
+        isModalVisible = true;
+    }
+
+    private void OpenEditModal(Gasto gasto)
+    {   
+        successMessage = string.Empty; 
+        modalErrorMessage = string.Empty;
+
+        gastoToEdit = new Gasto
+        {
+            Id = gasto.Id,
+            Descripcion = gasto.Descripcion,
+            Monto = gasto.Monto,
+            Categoria = gasto.Categoria,
+            Fecha = gasto.Fecha,
+            TipoGasto = gasto.TipoGasto
+            
+        };
+
+        isModalVisible = true;
+    }
+
+    private void CloseModal()
+    {
+        isModalVisible = false;
+    }
+
+    private async Task CargarGastos()
+{
+    
+    allMovimientos = await GastoSvc.GetGastosAsync();
+    ClearFilterAndPaginate();
+}
+
+    private async Task HandleGastoSaved(Gasto savedGasto)
+    {   
+        modalErrorMessage = string.Empty; // Limpia errores al re-intentar
+        try
+        {
+            if (savedGasto.Id > 0)
+            {
+                await GastoSvc.UpdateGastoAsync(savedGasto.Id, savedGasto);
+                successMessage = $"Gasto #{savedGasto.Id} actualizado exitosamente.";
+            }
+            else
+            {
+                await GastoSvc.CreateGastoAsync(savedGasto);
+                successMessage = "Gasto creado exitosamente.";
+                await CambiarPagina(1);
+            }
+            
+            CloseModal();
+            await CargarGastos(); 
+        }
+        catch (Exception ex)
+        {
+            
+            modalErrorMessage = $"Error al guardar: {ex.Message}";
+        } 
+    }
+
+    private async Task DeleteGasto(int gastoId)
+    {
+        
+        var resultado = await GastoSvc.DeleteGastoAsync(gastoId);
+
+        if (resultado) 
+        {
+            
+            if (MovimientosPaginaActual.Count() == 1 && PaginaActual > 1)
+            {
+                await CambiarPagina(PaginaActual - 1);
+            }
+
+            
+            await CargarGastos();
+        }
+    }
+}

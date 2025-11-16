@@ -1,0 +1,126 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5; 
+}
+
+.banner{
+    background-image: linear-gradient(100deg,#000000, #00002000), url('/pictures/login.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    min-height: 500px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    z-index: 2
+}
+
+.div-izquierdo{
+    flex: 1;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(190, 164, 135);
+}
+
+.div-izquierdo h1{
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: rgb(48, 4, 4);
+}
+
+.div-izquierdo form{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-izquierdo label{
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(32, 1, 1);
+}
+
+.div-izquierdo input{
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    border: 2px solid rgb(0, 0, 0);
+    color: #020000;
+}
+
+.div-izquierdo input:focus{
+    outline: none;
+    border-color: #ffffff;
+    background: white;
+}
+
+.div-izquierdo button{
+    padding: 1rem;
+    font-size: 1.1rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(63, 0, 0);
+    border: solid 2px brown;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.div-izquierdo button:hover{
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.div-derecho{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 2rem;
+}
+
+.div-derecho img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+a{
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(63, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}

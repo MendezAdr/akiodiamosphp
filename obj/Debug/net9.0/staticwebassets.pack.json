@@ -1,0 +1,125 @@
+{
+  "Files": [
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/obj/Debug/net9.0/scopedcss/projectbundle/CrudCafeteria.bundle.scp.css",
+      "PackagePath": "staticwebassets/CrudCafeteria.he0t5d89dx.bundle.scp.css"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/css/Login.css",
+      "PackagePath": "staticwebassets/css/Login.css"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/batido.jpg",
+      "PackagePath": "staticwebassets/pictures/batido.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/cachito.jpg",
+      "PackagePath": "staticwebassets/pictures/cachito.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/cafes.jpg",
+      "PackagePath": "staticwebassets/pictures/cafes.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/crepa.jpg",
+      "PackagePath": "staticwebassets/pictures/crepa.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/drink.jpg",
+      "PackagePath": "staticwebassets/pictures/drink.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/frio.jpg",
+      "PackagePath": "staticwebassets/pictures/frio.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/galleta.jpg",
+      "PackagePath": "staticwebassets/pictures/galleta.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/helado.jpg",
+      "PackagePath": "staticwebassets/pictures/helado.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/hotcakes.jpg",
+      "PackagePath": "staticwebassets/pictures/hotcakes.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/login.jpg",
+      "PackagePath": "staticwebassets/pictures/login.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/logoapp.jpg",
+      "PackagePath": "staticwebassets/pictures/logoapp.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/matcha.jpg",
+      "PackagePath": "staticwebassets/pictures/matcha.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/naranja.jpg",
+      "PackagePath": "staticwebassets/pictures/naranja.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada.jpg",
+      "PackagePath": "staticwebassets/pictures/portada.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada2.jpg",
+      "PackagePath": "staticwebassets/pictures/portada2.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada3.jpg",
+      "PackagePath": "staticwebassets/pictures/portada3.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/portada4.jpg",
+      "PackagePath": "staticwebassets/pictures/portada4.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/torta.jpg",
+      "PackagePath": "staticwebassets/pictures/torta.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/tostatadas.jpg",
+      "PackagePath": "staticwebassets/pictures/tostatadas.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/waffles.jpg",
+      "PackagePath": "staticwebassets/pictures/waffles.jpg"
+    },
+    {
+      "Id": "/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/wwwroot/pictures/yogurt.jpg",
+      "PackagePath": "staticwebassets/pictures/yogurt.jpg"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.CrudCafeteria.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.CrudCafeteria.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.CrudCafeteria.props",
+      "PackagePath": "build\\CrudCafeteria.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.CrudCafeteria.props",
+      "PackagePath": "buildMultiTargeting\\CrudCafeteria.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.CrudCafeteria.props",
+      "PackagePath": "buildTransitive\\CrudCafeteria.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,83 @@
+/* ---------------------------------------------------- */
+/* Estilos Globales de Imágenes y Contenedores */
+/* ---------------------------------------------------- */
+
+/* CAMBIO CLAVE: UNIFICACIÓN DE ESTILOS DE IMAGEN */
+.content-banner img,
+.tostadas2 img,
+.hotcakes2 img,
+.cachito2 img,
+.yogurt2 img {
+    border-style: outset;
+    border-radius: 40px; 
+    width: 9rem;
+    height: 12rem;
+    object-fit: cover;
+    display: block;
+}
+
+/* Estilo unificado para los contenedores de título e imagen */
+.content-banner, .tostadas, .tostadas2, .hotcakes, .hotcakes2, .cachito, .cachito2, .yogurt, .yogurt2, .text {
+    width: 250px; /* Ancho fijo para cada bloque en desktop */
+    margin: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-banner h2, .tostadas h2, .hotcakes h2, .cachito h2, .yogurt h2 {
+    color: rgb(190, 164, 135); 
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.text {
+    /* Contenedor de texto libre al final */
+    width: 100%; 
+    order: 99; /* Asegura que vaya al final */
+    margin-top: 30px;
+}
+.text p {
+    color: rgb(235, 200, 160);
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/* ---------------------------------------------------- */
+/* Contenedor Principal (Flexbox) */
+/* ---------------------------------------------------- */
+.banner {
+    background-image: linear-gradient(100deg,#000000, #00002000), url('/pictures/portada3.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: auto; 
+    min-height: 50rem;
+    width: 100%;
+
+    display: flex; /* Habilitamos Flexbox */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start;
+    padding: 10rem 1rem 3rem 1rem;
+}
+
+/* ---------------------------------------------------- */
+/* Responsive Design (Desayunos) */
+/* ---------------------------------------------------- */
+
+@media (max-width: 600px) {
+     .banner {
+        padding-top: 80px; 
+    }
+    .content-banner, .tostadas, .tostadas2, .hotcakes, .hotcakes2, .cachito, .cachito2, .yogurt, .yogurt2 {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .content-banner h2, .tostadas h2, .hotcakes h2, .cachito h2, .yogurt h2 {
+        font-size: 1.5rem;
+    }
+}

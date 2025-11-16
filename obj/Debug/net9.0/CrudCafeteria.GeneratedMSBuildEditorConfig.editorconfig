@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CrudCafeteria
+build_property.RootNamespace = CrudCafeteria
+build_property.ProjectDir = /home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Layout/EmptyLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvRW1wdHlMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Paginas/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdpbmFzL0Vycm9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Paginas/Bebidas.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdpbmFzL0JlYmlkYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-he00sek1d4
+
+[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Paginas/Desayunos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdpbmFzL0Rlc2F5dW5vcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-dybbstqj4m
+
+[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Paginas/Gastos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdpbmFzL0dhc3Rvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-gkq5tnoyus
+
+[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Paginas/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdpbmFzL0hvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-f2bktnvalz
+
+[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Paginas/Postres.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdpbmFzL1Bvc3RyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-yb0ae78f1k
+
+[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Components/Shared/CreateGastoModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaGFyZWQvQ3JlYXRlR2FzdG9Nb2RhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-nb87jukl4f
+
+[/home/adrian/Documentos/carpetas de progrmas/web/Crud_NET/crud_net/CrudCafeteria/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
